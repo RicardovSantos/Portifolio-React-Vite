@@ -1,0 +1,14 @@
+#icone {
+    padding: 4px;
+     
+    font-size: 1.8rem;
+    padding: 10px;
+   
+} .sobre-paragrafo {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.container-icones {
+    background-color: blue;
+}

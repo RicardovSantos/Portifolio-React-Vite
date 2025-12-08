@@ -1,0 +1,10 @@
+ul{
+    display: flex;
+   list-style: none;
+   justify-content: end;
+}
+.container-nav {
+    background-color: #333; /* Cor de fundo escura */
+    padding: 10px 20px;     /* Espaçamento interno */
+
+}
