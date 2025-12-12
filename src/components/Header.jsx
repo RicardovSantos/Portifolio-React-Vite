@@ -8,7 +8,7 @@ const Header = () => {
 
 return (
       
-        <header className="container-heder"> 
+        <header className="container-header"> 
             <div className="container-foto">
                 <img src={Foto} id="foto-perfil" alt="Foto de perfil" />
             </div>

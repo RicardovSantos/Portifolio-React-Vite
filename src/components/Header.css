@@ -1,13 +1,14 @@
 #foto-perfil {
-  padding: 40px;
   border-radius: 50%;
   object-fit: cover;
   height: 300px;
   width: 300px;
-  border: 1px solid color(srgb red green blue);
+  border: 4px solid var(--maisClaro)
 } 
 h1 {
   text-align: center;
-  
-
+  font-size: 3rem;
+}
+.container-header {
+  padding-top: 50px;
 }

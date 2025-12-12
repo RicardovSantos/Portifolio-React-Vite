@@ -1,0 +1,9 @@
+footer {
+    background-color: var(--footer-nav);
+    padding: 20px 20px; 
+    margin-top: 4rem;
+}
+.icons-rodape {
+    padding: 5px;
+    font-size: 1.5rem;
+}

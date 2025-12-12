@@ -1,0 +1,16 @@
+ul{
+   display: flex;
+   list-style: none;
+   justify-content: end;
+   color:aliceblue;
+   justify-items: end;
+   position: relative;
+}
+.container-nav {
+    background-color: var(--footer-nav);
+    padding: 15px;     /* Espaçamento interno */
+
+}
+a{
+    text-decoration: none;
+}

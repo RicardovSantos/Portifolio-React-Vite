@@ -2,14 +2,14 @@
   max-width: auto;
   margin: 0 auto;
   text-align: center;
+  color: var(--claro);
 }
 
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.container-foto:hover {
+  filter: drop-shadow(0 0 2em #0E8388);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container-foto.react:hover {
+  filter: drop-shadow(0 0 2em #0E8388);
 }
 
 
