@@ -1,13 +1,31 @@
-
-.container-icon {
-    padding: 10px;
-    
-    font-size: 2rem;
-    text-align: center;
-    
+.container-Tecnologias {
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  width: 80%;
+  height: 30vh;
+  margin: 70px auto;
+  border: 2px solid var(--vidro);
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+.titulo-tecnologia {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
-.container-Tecnologias {
-    width: 80%;
-    margin-top: 40px;
+.container-icon {
+  padding: 10px;
+  font-size: 1.9rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+i:hover {
+ 
+  transform: translateY(-10px) scale(1.03);
+  transition: all 0.3s ease;
 }

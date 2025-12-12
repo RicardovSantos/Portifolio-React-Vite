@@ -2,8 +2,19 @@ footer {
     background-color: var(--footer-nav);
     padding: 20px 20px; 
     margin-top: 4rem;
+    
+}
+.titulo-contatos {
+padding: 10px;
 }
 .icons-rodape {
-    padding: 5px;
-    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.6rem;
+}   
+.item-rodape:hover {
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.2);
+  transform: translateY(-10px) scale(1.03);
 }

@@ -1,16 +1,23 @@
-ul{
-   display: flex;
-   list-style: none;
-   justify-content: end;
-   color:aliceblue;
-   justify-items: end;
-   position: relative;
-}
 .container-nav {
-    background-color: var(--footer-nav);
-    padding: 15px;     /* Espaçamento interno */
+  background-color: var(--footer-nav);
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Garante que fique acima de tudo */
 
 }
-a{
-    text-decoration: none;
+
+ul {
+  display: flex;
+  list-style: none;
+  font-weight: bolder;
+  
+}
+li {
+  margin: 3rem;
+}
+a {
+  text-decoration: none;
 }

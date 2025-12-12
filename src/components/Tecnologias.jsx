@@ -14,7 +14,7 @@ const Tecnologias = () => {
       />
 
       <div className="container-Tecnologias">
-        <h2>Tecnologias</h2>
+        <h2 className="titulo-tecnologia">Tecnologias</h2>
         <p className="container-icon">
           <i className="devicon-css3-plain colored"></i>
           <i className="devicon-javascript-plain colored"></i>

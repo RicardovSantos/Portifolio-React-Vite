@@ -1,9 +1,13 @@
 #foto-perfil {
+  margin-top: 40px;
   border-radius: 50%;
   object-fit: cover;
   height: 300px;
   width: 300px;
-  border: 4px solid var(--maisClaro)
+  border: 4px solid var(--maisClaro);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 20px rgba(79,70,229,0.3);
 } 
 h1 {
   text-align: center;
@@ -11,4 +15,8 @@ h1 {
 }
 .container-header {
   padding-top: 50px;
+}
+#foto-perfil:hover {
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.2);
+  transform: translateY(-10px) scale(1.03);
 }

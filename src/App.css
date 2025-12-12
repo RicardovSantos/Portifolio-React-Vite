@@ -1,21 +1,8 @@
-* {
-  max-width: auto;
-  margin: 0 auto;
-  text-align: center;
-  color: var(--claro);
-}
-
-.container-foto:hover {
-  filter: drop-shadow(0 0 2em #0E8388);
-}
-.container-foto.react:hover {
-  filter: drop-shadow(0 0 2em #0E8388);
-}
-
-
-.container-nav {
-  width: 100%;  
-  top: 0;
-  left: 0;
-  z-index: 1000; /* Garante que fique acima de tudo */
+body {
+  background-color: var(--primaria);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
 }

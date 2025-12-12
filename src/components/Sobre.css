@@ -1,12 +1,19 @@
 .container-sobre {
-    margin-top: 70px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 100px auto;
     padding: 10px;
     width: 80%;
+    border: 2px solid var(--vidro);
+    border-radius: 10px;
 }
 #title-sobre {
     padding: 10px 20px;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 .text-sobre {
     padding: 10px;
-
+    color: rgba(226, 232, 240, 0.8);
+   line-height: 1.3rem;
 }

@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Sobre from './components/Sobre'
 import Tecnologias from './components/Tecnologias'
+import Projeto from './components/Projeto'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       
       <Sobre/>
       <Tecnologias/>
+      <Projeto/>
     <Footer/>
     </>
   )

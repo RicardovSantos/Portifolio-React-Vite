@@ -1,0 +1,46 @@
+.secao-body-projetos {
+  padding: 4rem 2rem;
+  margin-top: 70px;
+}
+.img-pojet {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.projetos-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.caixa-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--vidro);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.caixa-textos {
+  padding: 1.5rem;
+}
+.Paragrafo-projeto {
+  color: rgba(226, 232, 240, 0.8);
+  line-height: 1.25rem;
+}
+.titulo-card {
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.2);
+  transform: translateY(-10px) scale(1.03);
+}
